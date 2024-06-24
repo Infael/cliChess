@@ -1,0 +1,32 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Testing
+*.test
+*.test~
+_test
+
+# Build output
+/bin/
+/pkg/
+/vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Dependency directories
+/vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
