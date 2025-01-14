@@ -9,7 +9,9 @@ import (
 	"strings"
 )
 
-const searchDepthCommand = "go depth 3" // "go movetime 1000"
+const searchDepthCommand = "go movetime 1000"
+
+// const searchDepthCommand = "go depth 4"
 
 type EngineConnector struct {
 	cmd    *exec.Cmd
